@@ -40,8 +40,8 @@
 #define END_SPACE           8       // Number of blank columns after text
 #define COL_SIZE            7       // Number of LEDs in a single column
 #define ROW_SIZE            8       // Number of LEDs in a single row
-#define NUM_LEDS            COL_SIZE * ROW_SIZE
-#define ALL_BUT_LAST_COL    NUM_LEDS - COL_SIZE
+#define NUM_LEDS            (COL_SIZE * ROW_SIZE)
+#define ALL_BUT_LAST_COL    (NUM_LEDS - COL_SIZE)
 
 /* Global variables */
 
